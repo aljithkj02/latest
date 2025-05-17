@@ -1,4 +1,5 @@
 import Benefits from "./components/Benefits"
+import CourseOverview from "./components/CourseOverview"
 import CTA from "./components/CTA"
 import Footer from "./components/Footer"
 import FreeBonus from "./components/FreeBonus"
@@ -12,6 +13,7 @@ function App() {
     return (
         <div className="font-sans">
             <HookQuote />
+            <CourseOverview />
             <Hero />
             <Benefits />
             <FreeBonus />
