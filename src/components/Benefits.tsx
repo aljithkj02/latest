@@ -68,6 +68,19 @@ export default function Benefits() {
                             <span className="font-bold text-yellow-500">NO FAP KINGS</span> whatsapp community
                         </span>
                     </motion.li>
+
+                    <motion.li
+                        className="flex items-start gap-3"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.6, duration: 0.5 }}
+                        viewport={{ once: true }}
+                    >
+                        <span className="mt-1 text-[#0ea5e9]">✓</span>
+                        <span>
+                            പൂർണമായും <span className="font-bold text-red-500">P*rn Block</span>  ചെയ്യുന്നതിനുള്ള Application
+                        </span>
+                    </motion.li>
                 </ul>
             </motion.div>
         </section>

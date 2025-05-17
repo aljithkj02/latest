@@ -14,8 +14,8 @@ export default function HookQuote() {
             >
                 <FaQuoteLeft className="absolute top-3 left-2 text-3xl text-white/30" />
                 <blockquote className="text-xl md:text-2xl font-light italic text-white/90 text-center">
-                    P*rn & Mast*rbation നിർത്താൻ നിങ്ങൾ പരിശ്രമിക്കാത്തതല്ല പ്രശ്നം. 
-                    <span className='text-yellow-400 font-bold'>അറിവില്ലായ്മയാണ്  കാരണം.</span>
+                    P*rn & Mast*rbation നിർത്താൻ നിങ്ങൾ പരിശ്രമിക്കാത്തതല്ല പ്രശ്നം. <br />
+                    <span className='text-yellow-400 font-bold'>“അറിവില്ലായ്മയാണ്  കാരണം.”</span>
                 </blockquote>
                 <FaQuoteRight className="absolute bottom-3 right-6 text-3xl text-white/30" />
             </motion.div>
