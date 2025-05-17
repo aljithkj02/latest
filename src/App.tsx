@@ -11,10 +11,10 @@ function App() {
 
     return (
         <div className="font-sans">
+            <HookQuote />
             <Hero />
             <Benefits />
             <FreeBonus />
-            <HookQuote />
             <CTA />
             <Testimonials />
             <Footer />

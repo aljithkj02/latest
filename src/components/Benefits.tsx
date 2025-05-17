@@ -1,12 +1,4 @@
-// src/components/Benefits.tsx
 import { motion } from 'framer-motion';
-
-const points = [
-    'എന്തുകൊണ്ടാണ്  ഇത്ര വർഷമായിട്ടും P*rn ൽ നിന്ന്  പുറത്തു കടക്കാൻ സാധിക്കാത്തത് എന്ന് നിങ്ങൾ തിരിച്ചറിയും',
-    'കഴിഞ്ഞ 348 ദിവസമായി No Fap നിലനിർത്താൻ ഞാൻ Follow ചെയ്ത  ആ MASTER SECRET.',
-    'Immediate access to the CORE SYSTEM',
-    'No Fap Kings whatsapp community',
-];
 
 export default function Benefits() {
     return (
@@ -23,19 +15,59 @@ export default function Benefits() {
                 </h2>
 
                 <ul className="space-y-6 text-lg leading-relaxed">
-                    {points.map((point, i) => (
-                        <motion.li
-                            key={i}
-                            className="flex items-start gap-3"
-                            initial={{ opacity: 0, x: -20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ delay: i * 0.2, duration: 0.5 }}
-                            viewport={{ once: true }}
-                        >
-                            <span className="mt-1 text-[#0ea5e9]">✓</span>
-                            <span>{point}</span>
-                        </motion.li>
-                    ))}
+                    <motion.li
+                        className="flex items-start gap-3"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.5 }}
+                        viewport={{ once: true }}
+                    >
+                        <span className="mt-1 text-[#0ea5e9]">✓</span>
+                        <span>
+                            എന്തുകൊണ്ടാണ്  ഇത്ര വർഷമായിട്ടും P*rn ൽ നിന്ന്  പുറത്തു കടക്കാൻ സാധിക്കാത്തത് എന്ന് നിങ്ങൾ തിരിച്ചറിയും
+                        </span>
+                    </motion.li>
+
+                    <motion.li
+                        className="flex items-start gap-3"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.2, duration: 0.5 }}
+                        viewport={{ once: true }}
+                    >
+                        <span className="mt-1 text-[#0ea5e9]">✓</span>
+                        <span>
+                            കഴിഞ്ഞ 348 ദിവസമായി No Fap നിലനിർത്താൻ ഞാൻ Follow ചെയ്ത ആ
+                            <span className="font-bold text-[#16a34a]"> MASTER SECRET</span>
+                        </span>
+                    </motion.li>
+
+                    <motion.li
+                        className="flex items-start gap-3"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.4, duration: 0.5 }}
+                        viewport={{ once: true }}
+                    >
+                        <span className="mt-1 text-[#0ea5e9]">✓</span>
+                        <span>
+                            Immediate access to the
+                            <span className="font-bold ml-1">CORE SYSTEM</span>
+                        </span>
+                    </motion.li>
+
+                    <motion.li
+                        className="flex items-start gap-3"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.6, duration: 0.5 }}
+                        viewport={{ once: true }}
+                    >
+                        <span className="mt-1 text-[#0ea5e9]">✓</span>
+                        <span>
+                            <span className="font-bold text-yellow-500">NO FAP KINGS</span> whatsapp community
+                        </span>
+                    </motion.li>
                 </ul>
             </motion.div>
         </section>
