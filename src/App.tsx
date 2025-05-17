@@ -3,6 +3,7 @@ import CTA from "./components/CTA"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import HookQuote from "./components/HookQuote"
+import Testimonials from "./components/Testimonials"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Benefits />
             <HookQuote />
             <CTA />
+            <Testimonials />
             <Footer />
         </div>
     )
