@@ -5,6 +5,7 @@ const points = [
     'എന്തുകൊണ്ടാണ്  ഇത്ര വർഷമായിട്ടും P*rn ൽ നിന്ന്  പുറത്തു കടക്കാൻ സാധിക്കാത്തത് എന്ന് നിങ്ങൾ തിരിച്ചറിയും',
     'കഴിഞ്ഞ 348 ദിവസമായി No Fap നിലനിർത്താൻ ഞാൻ Follow ചെയ്ത  ആ MASTER SECRET.',
     'Immediate access to the CORE SYSTEM',
+    'No Fap Kings whatsapp community',
 ];
 
 export default function Benefits() {
