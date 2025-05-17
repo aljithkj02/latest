@@ -18,7 +18,7 @@ export default function Hero() {
 
                     ഉള്ളിലെ വിവരങ്ങൾക്ക് എനിക്ക്  &nbsp;₹ 2999 പോലും ഈടാക്കാം,
 
-                    കാരണം ഇതൊക്കെ പഠിപ്പിക്കുന്നത്  കഴിഞ്ഞ 6 വർഷത്തെ 3000 ൽ അധികം വ്യെക്തികളെ ഈ ഒരു P*rn Addiction ൽ നിന്ന് മാറ്റിയെടുത്ത അനുഭവത്തിൽ നിന്നാണ്.
+                    കാരണം ഇതൊക്കെ പഠിപ്പിക്കുന്നത്  കഴിഞ്ഞ 6 വർഷത്തെ 3000 ൽ അധികം വ്യക്തികളെ ഈ ഒരു P*rn Addiction ൽ നിന്ന് മാറ്റിയെടുത്ത അനുഭവത്തിൽ നിന്നാണ്.
                 </p>
                 <div className="mt-8">
                     <button className="bg-[#38bdf8] text-[#0f172a] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#0ea5e9] transition">
