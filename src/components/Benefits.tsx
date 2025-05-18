@@ -81,6 +81,32 @@ export default function Benefits() {
                             പൂർണമായും <span className="font-bold text-red-500">P*rn Block</span>  ചെയ്യുന്നതിനുള്ള Application
                         </span>
                     </motion.li>
+
+                    <motion.li
+                        className="flex items-start gap-3"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.6, duration: 0.5 }}
+                        viewport={{ once: true }}
+                    >
+                        <span className="mt-1 text-[#0ea5e9]">✓</span>
+                        <span>
+                            Nofap Power <b>Motivation</b> Videos
+                        </span>
+                    </motion.li>
+
+                    <motion.li
+                        className="flex items-start gap-3"
+                        initial={{ opacity: 0, x: -20 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ delay: 0.6, duration: 0.5 }}
+                        viewport={{ once: true }}
+                    >
+                        <span className="mt-1 text-[#0ea5e9]">✓</span>
+                        <span>
+                            NOFAP <span className="font-bold text-red-500">ചതിക്കുഴികൾ </span>  മനസ്സിലാക്കാം
+                        </span>
+                    </motion.li>
                 </ul>
             </motion.div>
         </section>
