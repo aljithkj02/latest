@@ -1,6 +1,7 @@
 // src/components/Testimonials.tsx
 import { useRef } from 'react';
 import { motion } from 'framer-motion';
+import Thumb from '../assets/thumb.jpg'
 
 const videoTestimonials = [
     'https://res.cloudinary.com/dquq0mrkt/video/upload/v1747574207/01_1_yirtud.mp4',
@@ -47,6 +48,7 @@ export default function Testimonials() {
                                     className="w-full h-full object-cover"
                                     controls
                                     onPlay={() => handlePlay(index)}
+                                    poster={Thumb}
                                 >
                                     <source src={videoUrl} type="video/mp4" />
                                     Your browser does not support the video tag.
