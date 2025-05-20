@@ -72,7 +72,9 @@ export default function CTA() {
 
                 <div className="mt-10">
                     <button className="bg-white text-[#14b8a6] px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition">
-                        Join Now
+                        <a href="https://superprofile.bio/vp/no-pmo-warriors-889" target='_blank'>
+                            Join Now
+                        </a>
                     </button>
                 </div>
             </motion.div>

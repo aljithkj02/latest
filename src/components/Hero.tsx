@@ -22,7 +22,9 @@ export default function Hero() {
                 </p>
                 <div className="mt-8">
                     <button className="bg-[#38bdf8] text-[#0f172a] px-6 py-3 rounded-full text-lg font-medium hover:bg-[#0ea5e9] transition">
-                        Start Your Journey
+                        <a href="https://superprofile.bio/vp/no-pmo-warriors-889" target="_blank">
+                            Start Your Journey
+                        </a>
                     </button>
                 </div>
             </motion.div>
