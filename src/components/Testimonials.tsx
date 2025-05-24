@@ -1,7 +1,6 @@
-// src/components/Testimonials.tsx
 import { useRef } from 'react';
 import { motion } from 'framer-motion';
-import Thumb from '../assets/thumb.jpg'
+import Thumb from '../assets/thumb.jpg';
 
 const videoTestimonials = [
     'https://res.cloudinary.com/dquq0mrkt/video/upload/v1747574207/01_1_yirtud.mp4',
@@ -9,6 +8,17 @@ const videoTestimonials = [
     'https://res.cloudinary.com/dquq0mrkt/video/upload/v1747574259/03_kvfpyi.mp4',
     'https://res.cloudinary.com/dquq0mrkt/video/upload/v1747574240/04_an7ibh.mp4',
     'https://res.cloudinary.com/dquq0mrkt/video/upload/v1747574275/05_lk6zsz.mp4',
+];
+
+const descriptions = [
+    'ഒറ്റ തീരുമാനത്തിൽ ജീവിതം മാറി',
+    'നല്ല ജീവിതത്തിലേക്ക് തിരിച്ചുവരവ് | 6 വർഷത്തെ പോൺ അടിക്ഷനിന്റെ അവസാനം',
+    'Nofap കൊണ്ട് എന്റെ ജീവിതം പൂർണമായി മാറി',
+    'Nofap കൊണ്ട് ഞാൻ രക്ഷപ്പെട്ടത് ഒരുപാട് വേദനകളിൽ നിന്നാണ് | എന്റെ കഥ',
+    <>
+        എന്റെ ജീവിതത്തിന്റെ ഏറ്റവും വലിയ <br />
+        മോചനം - Nofap
+    </>,
 ];
 
 export default function Testimonials() {
@@ -53,6 +63,9 @@ export default function Testimonials() {
                                     <source src={videoUrl} type="video/mp4" />
                                     Your browser does not support the video tag.
                                 </video>
+                            </div>
+                            <div className="p-4 text-center text-sm italic text-gray-700">
+                                {descriptions[index]}
                             </div>
                         </motion.div>
                     ))}
