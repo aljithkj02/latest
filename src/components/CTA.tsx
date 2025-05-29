@@ -71,7 +71,7 @@ export default function CTA() {
                 </div>
 
                 <div className="mt-10">
-                    <a href="https://superprofile.bio/vp/no-pmo-warriors-889" target='_blank'>
+                    <a href="https://superprofile.bio/course/nopmowarriors" target='_blank'>
                         <button className="bg-white text-[#14b8a6] cursor-pointer px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition">
                             Join Now
                         </button>

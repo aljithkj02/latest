@@ -21,7 +21,7 @@ export default function Hero() {
                     കാരണം ഇതൊക്കെ പഠിപ്പിക്കുന്നത്  കഴിഞ്ഞ 6 വർഷത്തെ 3000 ൽ അധികം വ്യക്തികളെ ഈ ഒരു P*rn Addiction ൽ നിന്ന് മാറ്റിയെടുത്ത അനുഭവത്തിൽ നിന്നാണ്.
                 </p>
                 <div className="mt-8">
-                    <a href="https://superprofile.bio/vp/no-pmo-warriors-889" target="_blank">
+                    <a href="https://superprofile.bio/course/nopmowarriors" target="_blank">
                         <button className="bg-[#38bdf8] text-[#0f172a] px-6 py-3 rounded-full cursor-pointer text-lg font-medium hover:bg-[#0ea5e9] transition">
                             Start Your Journey
                         </button>
