@@ -3,7 +3,7 @@ import { FaGift } from 'react-icons/fa';
 
 export default function FreeBonus() {
     return (
-        <section className="bg-[#0f172a] text-white py-14 px-6">
+        <section id="free_bonus" className="bg-[#0f172a] text-white py-14 px-6">
             <motion.div
                 className="max-w-4xl mx-auto text-center flex flex-col items-center gap-5"
                 initial={{ opacity: 0, y: 30 }}

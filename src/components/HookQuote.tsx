@@ -4,7 +4,7 @@ import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
 
 export default function HookQuote() {
     return (
-        <section className="bg-[#0f172a] text-white py-16 px-6">
+        <section id="hook_quote" className="bg-[#0f172a] text-white py-16 px-6">
             <motion.div
                 className="max-w-3xl mx-auto bg-[#1e293b] rounded-xl px-6 py-10 relative shadow-lg"
                 initial={{ opacity: 0, y: 30 }}

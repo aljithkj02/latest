@@ -4,7 +4,7 @@ import Manthra from '../assets/manthra.jpg'
 
 export default function CourseOverview() {
     return (
-        <section className="bg-[#f0fdfa] text-[#0f172a] py-10 px-6">
+        <section id="course_overview" className="bg-[#f0fdfa] text-[#0f172a] py-10 px-6">
             <motion.div
                 className="max-w-5xl mx-auto text-center"
                 initial={{ opacity: 0, y: 30 }}

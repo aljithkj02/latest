@@ -42,7 +42,7 @@ export default function CTA() {
     const { hours, minutes, seconds } = getFormattedTime(timeLeft);
 
     return (
-        <section className="bg-[#14b8a6] text-white py-20 px-6 text-center">
+        <section id="cta" className="bg-[#14b8a6] text-white py-20 px-6 text-center">
             <motion.div
                 className="max-w-3xl mx-auto"
                 initial={{ opacity: 0, y: 20 }}

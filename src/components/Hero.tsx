@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export default function Hero() {
     return (
-        <section className="bg-[#0f172a] text-white flex items-center justify-center px-6 pt-10 pb-14">
+        <section id="start_your_journey" className="bg-[#0f172a] text-white flex items-center justify-center px-6 pt-10 pb-14">
             <motion.div
                 initial={{ opacity: 0, y: 40 }}
                 animate={{ opacity: 1, y: 0 }}
