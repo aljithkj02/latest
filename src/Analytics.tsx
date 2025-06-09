@@ -26,7 +26,7 @@ export const SectionObserver = () => {
     const visibleSections = new Map(); // { sectionId: entryTime }
 
     const observer = new IntersectionObserver(
-      (entries) => {
+      (entries) => { 
         entries.forEach((entry) => {
           const sectionId = entry.target.id;
 
