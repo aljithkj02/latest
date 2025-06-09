@@ -38,10 +38,14 @@ export const SectionObserver = () => {
             // User enters section — store the timestamp
             visibleSections.set(sectionId, now);
 
-            ReactGA.event({
-              category: "Section",
-              action: "Viewed",
-              label: sectionId,
+            // ReactGA.event({
+            //   category: "Section",
+            //   action: "Viewed",
+            //   label: sectionId,
+            // });
+
+            ReactGA.event("section_view", {
+              section_name: sectionId,
             });
           } else {
             // User leaves section — calculate time spent
@@ -51,11 +55,16 @@ export const SectionObserver = () => {
               const duration = Math.round((now - entryTime) / 1000); // in seconds
               visibleSections.delete(sectionId);
 
-              ReactGA.event({
-                category: "Engagement",
-                action: "Time in Section",
-                label: sectionId,
-                value: duration, // GA4 will record this as an integer
+              // ReactGA.event({
+              //   category: "Engagement",
+              //   action: "Time in Section",
+              //   label: sectionId,
+              //   value: duration, // GA4 will record this as an integer
+              // });
+
+              ReactGA.event("time_in_section", {
+                section_name: sectionId,
+                value: duration,
               });
             }
           }
