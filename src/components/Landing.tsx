@@ -78,10 +78,13 @@ const Landing = () => {
                 <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
                     <motion.div variants={heroVariants} initial="hidden" animate="visible">
                         <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 !leading-tight mb-6">
-                            ആരും കാണാതെ, ഒരു മുറിയുടെ കോണിലിരുന്ന് നീ അനുഭവിക്കുന്ന ആ മാനസിക സംഘർഷമുണ്ടല്ലോ...
+                            {/* ആരും കാണാതെ, ഒരു മുറിയുടെ കോണിലിരുന്ന് നീ അനുഭവിക്കുന്ന ആ മാനസിക സംഘർഷമുണ്ടല്ലോ... */}
+                            <span className="text-orange-500">P*rn & Mast*rbation</span> അടിമത്തത്തിൽ നിന്ന് പൂർണ മോചനം!
                         </h2>
                         <p className="text-lg text-slate-700 mb-8">
-                            അതൊരുപക്ഷേ നിന്റെ ഉറക്കം കെടുത്തുന്നുണ്ടാവാം, സ്നേഹിക്കുന്നവരിൽ നിന്ന് നിന്നെ അകറ്റുന്നുണ്ടാവാം. ഒരു പത്ത് മിനിറ്റ് എന്ന് കരുതി തുടങ്ങി മണിക്കൂറുകൾ നഷ്ടപ്പെടുമ്പോൾ നിരാശ തോന്നാറുണ്ടോ? നീ ഒറ്റയ്ക്കല്ല സുഹൃത്തേ.
+                            {/* അതൊരുപക്ഷേ നിന്റെ ഉറക്കം കെടുത്തുന്നുണ്ടാവാം, സ്നേഹിക്കുന്നവരിൽ നിന്ന് നിന്നെ അകറ്റുന്നുണ്ടാവാം. ഒരു പത്ത് മിനിറ്റ് എന്ന് കരുതി തുടങ്ങി മണിക്കൂറുകൾ നഷ്ടപ്പെടുമ്പോൾ നിരാശ തോന്നാറുണ്ടോ? നീ ഒറ്റയ്ക്കല്ല സുഹൃത്തേ. */}
+                            {/* ഒറ്റയ്ക്ക് ഒരു മുറിയുടെ കോണിലിരുന്ന് നീ അനുഭവിക്കുന്ന ആ മാനസിക സംഘർഷം ഞങ്ങൾക്കറിയാം. ഉറക്കം കെടുത്തുന്ന, പ്രിയപ്പെട്ടവരിൽ നിന്ന് അകറ്റുന്ന, സമയം വെറുതെ കളയുന്ന ഈ ശീലം നിന്നെ വല്ലാതെ തളർത്തിയിട്ടുണ്ടാവാം. ഇനി നീ ഒറ്റയ്ക്കല്ല! No PMO Warriors Program ലൂടെ, ഈ അടിമത്തത്തിൽ നിന്ന് പൂർണ്ണമായും പുറത്തുവന്ന്, ആത്മവിശ്വാസത്തോടെയും ലക്ഷ്യബോധത്തോടെയും ജീവിക്കാൻ ഞങ്ങൾ നിന്നെ സഹായിക്കും. നിന്റെ നഷ്ടപ്പെട്ട ജീവിതം തിരിച്ചുപിടിക്കാൻ ഇത് ഒരു അവസരമാണ്. */}
+                            സ്വയം നിയന്ത്രിക്കാനാകാതെ, ദിവസേന മണിക്കൂറുകൾ നഷ്ടപ്പെട്ട്, കുറ്റബോധത്തിൽ നീ ഒറ്റയ്ക്കിരിക്കുകയാണോ? ഈ ശീലം നിന്റെ ഉറക്കവും ആത്മവിശ്വാസവും കെടുത്തിയിട്ടുണ്ടാവാം. ഇനി നീ ഒറ്റയ്ക്കല്ല! No PMO Warriors Program ലൂടെ, ഈ അടിമത്തത്തിൽ നിന്ന് പൂർണ്ണമായും പുറത്തുവന്ന്, ആത്മവിശ്വാസത്തോടെയും ലക്ഷ്യബോധത്തോടെയും ജീവിക്കാൻ ഞങ്ങൾ നിന്നെ സഹായിക്കും. നിന്റെ നഷ്ടപ്പെട്ട ജീവിതം തിരിച്ചുപിടിക്കാൻ ഇത് ഒരു അവസരമാണ്.
                         </p>
                         <motion.a href="https://superprofile.bio/course/nopmowarriors" variants={buttonVariants} whileHover="hover" whileTap="tap" className="inline-block bg-orange-500 text-white font-bold py-4 px-10 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-lg">
                             പുറത്തുവരാൻ ഞാനാഗ്രഹിക്കുന്നു
@@ -93,27 +96,6 @@ const Landing = () => {
                         </div>
                         <p className="text-center mt-4 text-slate-600 italic">ഈ കോഴ്‌സിൽ ഞങ്ങൾ ചെയ്യുന്നത് ഇതാണ്</p>
                     </motion.div>
-                </div>
-            </section>
-
-            {/* Award Section */}
-            <section className="bg-teal-700 text-white py-16">
-                <div className="container mx-auto px-6">
-                    <div className="grid md:grid-cols-2 gap-10 items-center">
-                        <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-                            <h3 className="text-3xl font-bold mb-4">ഇതൊരു അവാർഡ് മാത്രമല്ല, അതൊരു ഉറപ്പാണ്</h3>
-                            <div className="w-16 h-1 bg-orange-400 mb-6"></div>
-                            <p className="text-teal-100 text-lg mb-4">
-                                ആയിരക്കണക്കിന് ആളുകളുടെ ജീവിതത്തിൽ യഥാർത്ഥ മാറ്റങ്ങൾ കൊണ്ടുവന്നതിന് ഞങ്ങൾക്ക് ലഭിച്ച ഈ അംഗീകാരം, വെറുമൊരു അവാർഡല്ല. അത് ഞങ്ങളുടെ പ്രവർത്തനങ്ങളുടെയും നിങ്ങൾ ഓരോരുത്തരും ഞങ്ങളിലർപ്പിച്ച വിശ്വാസത്തിന്റെയും അടയാളമാണ്.
-                            </p>
-                            <p className="text-teal-100 text-lg">
-                                ഈ യാത്രയിൽ നിനക്ക് ലഭിക്കാൻ പോകുന്നതും ഇതുപോലൊരു ഉറപ്പാണ്.
-                            </p>
-                        </motion.div>
-                        <motion.div className="flex justify-center" initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-                            <img src={AwardImage} alt="Award for transforming lives" className="max-h-64" />
-                        </motion.div>
-                    </div>
                 </div>
             </section>
 
@@ -142,6 +124,27 @@ const Landing = () => {
                         <motion.a href="https://superprofile.bio/course/nopmowarriors" variants={buttonVariants} whileHover="hover" whileTap="tap" className="inline-block bg-orange-500 text-white font-bold py-4 px-10 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-lg">
                             ഈ യാത്രയിൽ പങ്കുചേരൂ
                         </motion.a>
+                    </div>
+                </div>
+            </section>
+
+            {/* Award Section */}
+            <section className="bg-teal-700 text-white py-16">
+                <div className="container mx-auto px-6">
+                    <div className="grid md:grid-cols-2 gap-10 items-center">
+                        <motion.div className="flex justify-center rounded-lg overflow-hidden" initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
+                            <img src={AwardImage} alt="Award for transforming lives" className="w-full object-cover" />
+                        </motion.div>
+                        <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
+                            <h3 className="text-3xl font-bold mb-4">ഇതൊരു അവാർഡ് മാത്രമല്ല, അതൊരു ഉറപ്പാണ്</h3>
+                            <div className="w-16 h-1 bg-orange-400 mb-6"></div>
+                            <p className="text-teal-100 text-lg mb-4">
+                                ആയിരക്കണക്കിന് ആളുകളുടെ ജീവിതത്തിൽ യഥാർത്ഥ മാറ്റങ്ങൾ കൊണ്ടുവന്നതിന് ഞങ്ങൾക്ക് ലഭിച്ച ഈ അംഗീകാരം, വെറുമൊരു അവാർഡല്ല. അത് ഞങ്ങളുടെ പ്രവർത്തനങ്ങളുടെയും നിങ്ങൾ ഓരോരുത്തരും ഞങ്ങളിലർപ്പിച്ച വിശ്വാസത്തിന്റെയും അടയാളമാണ്.
+                            </p>
+                            <p className="text-teal-100 text-lg">
+                                ഈ യാത്രയിൽ നിനക്ക് ലഭിക്കാൻ പോകുന്നതും ഇതുപോലൊരു ഉറപ്പാണ്.
+                            </p>
+                        </motion.div>
                     </div>
                 </div>
             </section>
