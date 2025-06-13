@@ -45,13 +45,12 @@ const Landing = () => {
     ];
 
     const reasonsToJoin = [
-        'നമ്മൾ സംസാരിക്കുന്നത് ശാസ്ത്രമാണ്, വെറും ഊഹങ്ങളല്ല. തെളിയിക്കപ്പെട്ട വഴികളിലൂടെ നമുക്ക് മുന്നോട്ട് പോകാം.',
-        'എല്ലാം നിന്റെ സ്വന്തം ഭാഷയിൽ, മലയാളത്തിൽ. അതുകൊണ്ട് കാര്യങ്ങൾ വേഗത്തിൽ മനസ്സിലാക്കാം, എളുപ്പത്തിൽ ജീവിതത്തിൽ പകർത്താം.',
-        'നിന്റെ സ്വകാര്യത ഞങ്ങളുടെ ഏറ്റവും വലിയ ഉത്തരവാദിത്തമാണ്. ഒരു വാക്ക് പോലും പുറത്തുപോകില്ല, അതെന്റെ ഉറപ്പാണ്.',
-        'എപ്പോഴെങ്കിലും ഒറ്റപ്പെട്ടെന്ന് തോന്നിയാൽ, ഒരു ബുദ്ധിമുട്ട് വന്നാൽ, ഓർക്കുക, ഞങ്ങൾ നിനക്കൊപ്പം തന്നെയുണ്ടാകും.',
-        'ദിവസവും ചെയ്യാൻ കഴിയുന്ന ചെറിയ ചെറിയ കാര്യങ്ങളിലൂടെ വലിയ മാറ്റങ്ങൾ കൊണ്ടുവരാനാണ് നമ്മൾ ശ്രമിക്കുന്നത്.',
-        'ഈ വഴിയിലൂടെ ഒരുപാട് പേരെ കൈപിടിച്ചുയർത്തിയ, അനുഭവസമ്പത്തുള്ളവരാണ് നിന്നോട് സംസാരിക്കാൻ വരുന്നത്.',
-        'ഇതൊരു താൽക്കാലിക ഒളിച്ചോട്ടമല്ല. ജീവിതകാലം മുഴുവൻ സന്തോഷത്തോടെയും ധൈര്യത്തോടെയും ജീവിക്കാനുള്ള ഒരു അടിത്തറയാണ് നമ്മൾ ഒരുക്കുന്നത്.',
+        '"ഇത് അവസാനത്തേത്" എന്ന നിന്റെ ഉറപ്പിന് മണിക്കൂറുകളുടെ ആയുസ്സുപോലുമില്ല. ഓരോ തവണയും പരാജയപ്പെട്ട് കുറ്റബോധത്തിൽ നീറുന്ന ഈ അവസ്ഥക്ക് ഒരവസാനം വേണ്ടേ?',
+        'നിന്റെ Career, ബന്ധങ്ങൾ, ആരോഗ്യം... ജീവിതത്തിൽ ശ്രദ്ധിക്കേണ്ട പലതിനും കൊടുക്കേണ്ട ഊർജ്ജമാണ് ഒരു മുറിക്കുള്ളിൽ നീയില്ലാതാക്കുന്നത്.',
+        'നിന്റെ പങ്കാളിയോടുള്ള താല്പര്യവും അടുപ്പവും കുറയുന്നുണ്ടോ? P*rn നിന്റെ പുരുഷത്വത്തെയും സ്നേഹിക്കാനുള്ള കഴിവിനെയുമാണ് ഇല്ലാതാക്കുന്നത്.',
+        'പുറമെ ചിരിക്കുമ്പോഴും, ആരും കാണാതെ നീ അനുഭവിക്കുന്ന ഈ മാനസിക സംഘർഷം... ഇത് പങ്കുവെക്കാൻ പോലും ഭയക്കുന്ന നിന്റെ അവസ്ഥ ഞങ്ങൾക്ക് മനസ്സിലാകും.',
+        'ഒന്നിനും ഒരു ഉഷാറില്ലായ്മ, എന്തിനും ഒരു മടുപ്പ്... യഥാർത്ഥ ജീവിതം തന്നെ ഒരു ഭാരമായി മാറിയെങ്കിൽ, അതിന്റെ കാരണം ഈ ശീലമല്ലാതെ മറ്റൊന്നല്ല.',
+        'ഇതൊരു മോശം ശീലം മാത്രമല്ല, നിന്റെ ആത്മവിശ്വാസത്തെയും ഭാവിയെയും കാർന്നുതിന്നുന്ന ഒരു വിഷമാണ്. ആ വിഷത്തിൽ നിന്ന് മോചനം നേടാൻ സമയമായി.'
     ];
 
     const faqs = [
@@ -90,17 +89,11 @@ const Landing = () => {
                             പുറത്തുവരാൻ ഞാനാഗ്രഹിക്കുന്നു
                         </motion.a>
                     </motion.div>
-                    <motion.div variants={heroVariants} initial="hidden" animate="visible">
-                        <div className="w-full aspect-video rounded-xl overflow-hidden shadow-2xl border-2 border-teal-500/50">
-                            <img src={Manthra} alt="Course Overview" className="w-full h-full object-cover" />
-                        </div>
-                        <p className="text-center mt-4 text-slate-600 italic">ഈ കോഴ്‌സിൽ ഞങ്ങൾ ചെയ്യുന്നത് ഇതാണ്</p>
-                    </motion.div>
                 </div>
             </section>
 
             {/* Testimonials Section */}
-            <section className="py-20 bg-slate-100">
+            <section className="py-10 bg-slate-100">
                 <div className="container mx-auto px-6">
                     <h3 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12">നിന്നെപ്പോലെ ചിന്തിച്ചിരുന്ന ചിലരുടെ വാക്കുകൾ കേൾക്കൂ</h3>
                     <div className="grid md:grid-cols-2 gap-10">
@@ -120,9 +113,9 @@ const Landing = () => {
                             </motion.div>
                         ))}
                     </div>
-                    <div className="text-center mt-16">
+                    <div className="text-center mt-8">
                         <motion.a href="https://superprofile.bio/course/nopmowarriors" variants={buttonVariants} whileHover="hover" whileTap="tap" className="inline-block bg-orange-500 text-white font-bold py-4 px-10 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-lg">
-                            ഈ യാത്രയിൽ പങ്കുചേരൂ
+                            എനിക്കും മാറണം
                         </motion.a>
                     </div>
                 </div>
@@ -139,7 +132,7 @@ const Landing = () => {
                             <h3 className="text-3xl font-bold mb-4">ഇതൊരു അവാർഡ് മാത്രമല്ല, അതൊരു ഉറപ്പാണ്</h3>
                             <div className="w-16 h-1 bg-orange-400 mb-6"></div>
                             <p className="text-teal-100 text-lg mb-4">
-                                ആയിരക്കണക്കിന് ആളുകളുടെ ജീവിതത്തിൽ യഥാർത്ഥ മാറ്റങ്ങൾ കൊണ്ടുവന്നതിന് ഞങ്ങൾക്ക് ലഭിച്ച ഈ അംഗീകാരം, വെറുമൊരു അവാർഡല്ല. അത് ഞങ്ങളുടെ പ്രവർത്തനങ്ങളുടെയും നിങ്ങൾ ഓരോരുത്തരും ഞങ്ങളിലർപ്പിച്ച വിശ്വാസത്തിന്റെയും അടയാളമാണ്.
+                                P*rn & Mast*rbation അടിമത്തത്തിന്റെ ചങ്ങലകൾ പൊട്ടിച്ചെറിഞ്ഞ്, ജീവിതം തിരിച്ചുപിടിക്കാൻ 3000-ത്തിൽ അധികം യുവാക്കളെ സഹായിച്ചതിനാണ് ഞങ്ങൾക്ക് ഈ അംഗീകാരം. ഇത് വെറുമൊരു അവാർഡല്ല, നിന്നെപ്പോലെ പോരാടി വിജയിച്ച ഓരോരുത്തരും ഞങ്ങളിലർപ്പിച്ച വിശ്വാസത്തിന്റെ പ്രതീകമാണ്.
                             </p>
                             <p className="text-teal-100 text-lg">
                                 ഈ യാത്രയിൽ നിനക്ക് ലഭിക്കാൻ പോകുന്നതും ഇതുപോലൊരു ഉറപ്പാണ്.
@@ -149,8 +142,27 @@ const Landing = () => {
                 </div>
             </section>
 
+            {/* Course Info Image Section */}
+            <section className="py-10 flex flex-col items-center">
+                <motion.div variants={heroVariants} initial="hidden" animate="visible"
+                    className='container'
+                >
+                    <div className="w-[95%] mx-auto aspect-video rounded-xl overflow-hidden shadow-2xl border-2 border-teal-500/50">
+                        <img src={Manthra} alt="Course Overview" className="w-full h-full object-cover" />
+                    </div>
+                    <p className="text-center mt-4 text-slate-600 italic">ഈ കോഴ്‌സിൽ ഞങ്ങൾ ചെയ്യുന്നത് ഇതാണ്</p>
+                </motion.div>
+
+                {/* ====[ പുതിയതായി ചേർത്ത CTA ബട്ടൺ - 1 ]==== */}
+                <div className="text-center mt-5 w-[80%]">
+                    <motion.a href="https://superprofile.bio/course/nopmowarriors" variants={buttonVariants} whileHover="hover" whileTap="tap" className="inline-block bg-orange-500 text-white font-bold py-4 px-10 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-lg">
+                        എനിക്കും വിജയിക്കണം
+                    </motion.a>
+                </div>
+            </section>
+
             {/* Course Info Section */}
-            <section className="py-20">
+            <section className="py-10">
                 <div className="container mx-auto px-6 text-center">
                     <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">ഈ യാത്ര നിന്നെ പഠിപ്പിക്കുന്ന പ്രധാന പാഠങ്ങൾ</h3>
                     <p className="max-w-3xl mx-auto text-slate-600 mb-16">
@@ -188,7 +200,7 @@ const Landing = () => {
                     </div>
                     {/* ====[ പുതിയതായി ചേർത്ത CTA ബട്ടൺ - 1 ]==== */}
                     <div className="text-center mt-16">
-                        <motion.a href="https://superprofile.bio/course/nopmowarriors" variants={buttonVariants} whileHover="hover" whileTap="tap" className="inline-block bg-orange-500 text-white font-bold py-4 px-10 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-lg">
+                        <motion.a href="https://superprofile.bio/course/nopmowarriors" variants={buttonVariants} whileHover="hover" whileTap="tap" className="inline-block bg-orange-500 text-white font-bold py-4 px-4 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-lg">
                             ജീവിതം മാറ്റിമറിക്കാൻ ഞാനാഗ്രഹിക്കുന്നു
                         </motion.a>
                     </div>
@@ -196,7 +208,7 @@ const Landing = () => {
             </section>
 
             {/* Reasons Section */}
-            <section className="bg-slate-100 py-20">
+            <section className="bg-slate-100 py-10">
                 <div className="container mx-auto px-6">
                     <h3 className="text-3xl md:text-4xl font-bold text-center text-slate-900 mb-12">എന്തുകൊണ്ട് ഈ യാത്ര നിനക്ക് അനിവാര്യമാണ്?</h3>
                     <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-x-12 gap-y-8">
@@ -210,7 +222,7 @@ const Landing = () => {
                     {/* ====[ പുതിയതായി ചേർത്ത CTA ബട്ടൺ - 2 ]==== */}
                     <div className="text-center mt-16">
                         <motion.a href="https://superprofile.bio/course/nopmowarriors" variants={buttonVariants} whileHover="hover" whileTap="tap" className="inline-block bg-orange-500 text-white font-bold py-4 px-10 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-lg">
-                            ഈ യാത്ര തുടങ്ങാം
+                            ഈ അടിമത്തം അവസാനിപ്പിക്കാം
                         </motion.a>
                     </div>
                 </div>
@@ -227,14 +239,14 @@ const Landing = () => {
             </section>
 
             {/* Final CTA Section */}
-            <section id="join-now" className="bg-white py-20">
+            <section id="join-now" className="bg-white py-10">
                 <div className="container mx-auto px-6 text-center max-w-3xl">
                     <motion.div className="bg-slate-100 p-8 sm:p-12 rounded-xl shadow-lg" initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.7 }}>
                         <h4 className="text-3xl font-bold text-slate-900">ഒരു പുതിയ ജീവിതം തുടങ്ങാൻ തയ്യാറാണോ?</h4>
                         <p className="text-slate-600 mt-4 mb-8 text-lg">
                             ഈ ഒരു തീരുമാനം നിന്റെ ജീവിതത്തിലെ ഏറ്റവും മികച്ച ഒന്നായിരിക്കും. നഷ്ടപ്പെട്ട സന്തോഷവും സമാധാനവും ആത്മവിശ്വാസവും തിരിച്ചുപിടിക്കാൻ ഞങ്ങൾ നിന്നെ സഹായിക്കാം.
                         </p>
-                        <motion.a href="https://superprofile.bio/course/nopmowarriors" variants={buttonVariants} whileHover="hover" whileTap="tap" className="inline-block bg-orange-500 text-white font-bold py-5 px-12 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-xl">
+                        <motion.a href="https://superprofile.bio/course/nopmowarriors" variants={buttonVariants} whileHover="hover" whileTap="tap" className="inline-block bg-orange-500 text-white font-bold py-5 px-6 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-xl">
                             അതെ, എനിക്ക് മാറണം!
                         </motion.a>
                     </motion.div>
