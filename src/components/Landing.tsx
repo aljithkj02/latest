@@ -92,6 +92,39 @@ const Landing = () => {
                 </div>
             </section>
 
+            {/* Doctor's Insight Section */}
+            <section className="py-10 bg-slate-100">
+                <div className="container mx-auto px-6 text-center">
+                    <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-12">
+                        P*rn അടിമത്തത്തിൽ നിന്ന് പുറത്തുവരാൻ ഒരു ഡോക്ടറുടെ വാക്കുകൾ കേൾക്കാം
+                    </h3>
+                    <div className="max-w-md mx-auto bg-white rounded-xl shadow-xl overflow-hidden">
+                        <div className="aspect-[9/14] w-full">
+                            <video
+                                className="w-full h-full object-cover"
+                                controls
+                                preload="none"
+                            // poster="" // You can add a poster image here if you have one
+                            >
+                                <source src="https://res.cloudinary.com/dquq0mrkt/video/upload/v1750416300/Recovery_Course_s4nl9f.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div className="text-center mt-12">
+                        <motion.a
+                            href="https://superprofile.bio/course/nopmowarriors"
+                            variants={buttonVariants}
+                            whileHover="hover"
+                            whileTap="tap"
+                            className="inline-block bg-orange-500 text-white font-bold py-4 px-10 rounded-lg shadow-xl hover:bg-orange-600 transition-colors duration-300 text-lg"
+                        >
+                            ഇപ്പോൾ തന്നെ ചേരുക
+                        </motion.a>
+                    </div>
+                </div>
+            </section>
+
             {/* Testimonials Section */}
             <section className="py-10 bg-slate-100">
                 <div className="container mx-auto px-6">
