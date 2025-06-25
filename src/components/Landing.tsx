@@ -8,6 +8,7 @@ import Thumb1 from '../assets/1thumb.png';
 import Thumb2 from '../assets/4thumb.png';
 // പുതിയ പ്ലേസ്‌ഹോൾഡർ അസറ്റുകൾ
 import AwardImage from '../assets/award.jpg'; // അവാർഡിന്റെ ചിത്രം ഇവിടെ ചേർക്കുക
+import DoctorThumb from '../assets/doctor_thumb.png'
 
 const Landing = () => {
     const videoRefs = useRef<HTMLVideoElement[]>([]);
@@ -104,9 +105,9 @@ const Landing = () => {
                                 className="w-full h-full object-cover"
                                 controls
                                 preload="none"
-                            // poster="" // You can add a poster image here if you have one
+                                poster={DoctorThumb}
                             >
-                                <source src="https://res.cloudinary.com/dquq0mrkt/video/upload/v1750416300/Recovery_Course_s4nl9f.mp4" type="video/mp4" />
+                                <source src={"https://res.cloudinary.com/dhdkncqit/video/upload/v1750826763/Recovery_Course_zsk53l.mp4"} type="video/mp4" />
                                 Your browser does not support the video tag.
                             </video>
                         </div>
